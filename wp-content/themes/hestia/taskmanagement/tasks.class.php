@@ -24,6 +24,4 @@ class TaskManagement{
 		$results = $this->db->get_results($this->db->prepare($sql,$valueset), ARRAY_A);
 		return $results;
 	}
-
-
 }
