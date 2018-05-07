@@ -16,4 +16,15 @@ function register_my_topnav() {
   register_nav_menu('topnav',__( 'Top Nav' ));
 }
 add_action( 'init', 'register_my_topnav' );
+
+$result = add_role(
+    'meha_agents',
+    __( 'Agents' ),
+    array(
+        'read'         => false,  // true allows this capability
+        'edit_posts'   => false,
+        'delete_posts' => false, // Use false to explicitly deny
+    )
+);
+
 include_once 'taskmanagement/task-functions.php';

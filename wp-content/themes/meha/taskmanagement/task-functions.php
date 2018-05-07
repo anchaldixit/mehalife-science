@@ -1,5 +1,7 @@
 <?php
 include_once 'tasks.class.php';
+include_once 'reporting.class.php';
+
 function show_user_tasklist(){
 
 	$user = wp_get_current_user();
@@ -20,7 +22,8 @@ add_shortcode('show_tasklist', 'show_user_tasklist');
  */
 function products_admin_menu() {
     add_menu_page('Task Manager', 'Task Manager', 'manage_options', 'task_manager', 'task_manager', '', 6);
-    add_submenu_page('task_manager', 'task_manager', 'Listing', 'manage_options', 'task_manager');
+    add_submenu_page('task_manager', 'task_manager', 'Visits', 'manage_options', 'task_manager');
+    add_submenu_page('task_manager', 'task_manager', 'Reporting', 'manage_options', 'reporting','reporting');
  
     #wp_enqueue_style('product_style', get_template_directory_uri().'/', '', '', '');
 }
@@ -31,4 +34,23 @@ function task_manager(){
 	$rows = $list->fetch();
 	include_once 'templates/admin/show-all.php'; 
 }
+
+function reporting(){
+	//do someting
+	$r = new ReportingManagement();
+	if(!empty($_POST)){
+		try{
+			//echo 'in code';
+			
+    		$r->save($_POST);
+    		$m = array('msg' => 'success');
+    	}catch(Exception $e){
+    		$m = array('error'=>$e->getMessage());
+    	}
+	}
+	$agents_list = get_users( [ 'role__in' => [ 'meha_agents' ] ] );
+	$all_reportings = $r->fetch();
+	include_once 'templates/admin/reporting.php'; 
+}
+
 ?>
