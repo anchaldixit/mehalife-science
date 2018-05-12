@@ -9,5 +9,9 @@ get_header();
 
 	wp_reset_query();
 ?>	
-
+<html>
+	<body>
+	
+		
 <?php get_footer(); ?>
+</html>

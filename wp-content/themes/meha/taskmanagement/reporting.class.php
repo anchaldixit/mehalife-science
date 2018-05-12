@@ -41,10 +41,29 @@ class ReportingManagement {
 		if($req['reporting_id'] == $req['manager_id']){
 			$error[] = "Please select different Reporting Agent from Manager";
 		}
-		
+		if(empty($req['id'])){
+			$filter = array('reporting_id'=>$req['reporting_id']);
+			$result = $this->fetch($filter);
+			var_dump($result);
+			//result is there then set error, already exist
+			if(!empty($result)){
+				$error[] = "Selected Agent is already reporting to some manager. Please check his name in below list.";
+			}
+			$filter1 = array('manager_id'=>$req['reporting_id'], 'reporting_id'=>$req['manager_id']);
+			$result2 = $this->fetch($filter1);
+			//result is there then set error, already exist
+			if(!empty($result2)){
+				$error[] = "Reverse reporting of selected Agent & Manager is already exists.";
+			}
+			
+
+		}
+
 		$data['modified_by'] = get_current_user_id() ;
 
 		var_dump($data);
+
+		 
 		//Collect all errors, do not proceed in case of any error is set, throw the exception
 		if(!empty($error)){
 			$msg = implode('<br>', $error);
@@ -79,6 +98,13 @@ class ReportingManagement {
                     $this->_table, $data, array('id' => $id)
             );
             if (!empty($this->db->last_error)) {
+
+                throw new Exception($this->db->last_error, '001');
+            }
+	}
+	function delete($id){
+		$this->db->delete( $this->_table,array('id'=>$id));
+		if (!empty($this->db->last_error)) {
 
                 throw new Exception($this->db->last_error, '001');
             }

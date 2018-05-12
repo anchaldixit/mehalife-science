@@ -16,4 +16,6 @@ get_header();
 	wp_reset_query();
 ?>	
 
+
+
 <?php get_footer(); ?>

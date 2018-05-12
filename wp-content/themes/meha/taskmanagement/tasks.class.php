@@ -41,7 +41,16 @@ class TaskManagement{
 			//It means its new insert request, not update
 			$data['user_id'] = get_current_user_id() ;
 		}
+		//create objct of reporting class
+		//call fetch function for $data['user_id'] as reporting_id
+		//Result is not empty thne set $data['manager_id']
 		//Collect all errors, do not proceed in case of any error is set, throw the exception
+		$obj_reporting = new ReportingManagement();
+		$reporting_filter = array('reporting_id'=>$data['user_id']);
+		$reporting_to_result = $obj_reporting->fetch($reporting_filter);
+		if(!empty($reporting_to_result) and !empty($reporting_to_result[0]['manager_id'])){
+			$data['manager_id'] = $reporting_to_result[0]['manager_id'];
+		}
 		if(!empty($error)){
 			$msg = implode('<br>', $error);
 			throw new Exception($msg, 1);
