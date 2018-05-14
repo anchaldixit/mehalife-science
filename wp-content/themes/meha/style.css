@@ -1,0 +1,9 @@
+#task-form{
+	display : none;
+}
+#add-new{
+	margin-bottom: 20px;
+}
+.add_comment_link{
+	margin-bottom: 10px !important;
+}

@@ -24,6 +24,9 @@ switch ($method){
         echo $obj->delete($_GET);
         //return success msg
         break;
+    case 'closeit':
+        echo $obj->closeIt($_GET);
+        break;
     default :
         echo json_encode(array('response'=> 'Invalid Request'));
 }

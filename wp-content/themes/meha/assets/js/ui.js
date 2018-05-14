@@ -38,21 +38,63 @@ var TaskManagement = function () {
     var self = this;
     self.selector = '#task-form';
     self.button = "#task-form #submit-button";
+    self.close = ".close_visit";
+    self.comment = ".add_comment_link";
     self.save = function(){
          params = jQuery(self.selector).serializeArray();
          $collector.process(params, self.afterSave);
     }
     self.afterSave = function(){
         //location.reload();
-        window.location = window.location.href+'?msg=success'
+        offset = window.location.href.indexOf('?');
+        length = offset >= 0 ? offset: window.location.href.length
+        window.location = window.location.href.substring(0,length)+'?msg=success'
+        window.location.reload();
     }
-    self.submitEventAction = function(){
+    self.initEvents = function(){
         jQuery(self.button).on('click',function(){
             self.save();
         });
+        jQuery(self.close).on('click',function(){
+            id = jQuery(this).attr('data-visit-id');
+            console.log('iddd',id)
+            self.closeIt(id);
+            //Show confirmation msg
+            //refresh
+        });
+        jQuery(self.comment).on('click',function(){
+            id = jQuery(this).attr('data-visit-id');
+
+            //show add new comment box
+            //scroll to that point
+        });
+    }
+    self.closeIt = function(id){
+        //close it
+        var params = [{'name':'call','value':'closeit'},{'name':'id','value':id}];
+        //var params = [{'call':'closeit'},{'id':id}];
+
+        $collector.process(params, self.afterCloseIt);
+
+    }
+    self.afterCloseIt = function(){
+        alert('Visit Closed Successfully');
+        window.location.reload();
+    }
+    self.saveComment = function(){
+        //save
+        //Close the 
+    }
+    self.afterSaveComment = function(){
+        //CLose dialoge
+        //refresh page
+        //show msg
     }
 }
 jQuery(document).ready(function(){
     tm = new TaskManagement();
-    tm.submitEventAction();
+    tm.initEvents();
+    jQuery('#add-new').click(function(){
+        jQuery("#task-form").fadeIn('slow');
+    });
 });
