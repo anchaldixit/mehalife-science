@@ -25,7 +25,7 @@ function products_admin_menu() {
     add_submenu_page('task_manager', 'task_manager', 'Visits', 'manage_options', 'task_manager');
     add_submenu_page('task_manager', 'task_manager', 'Reporting', 'manage_options', 'reporting2u','reporting2u');
  
-    #wp_enqueue_style('product_style', get_template_directory_uri().'/', '', '', '');
+    wp_enqueue_style('product_style', get_template_directory_uri().'/taskmanagement/product_style.css', '', '', '');
 }
 add_action('admin_menu', 'products_admin_menu');
 

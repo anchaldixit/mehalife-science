@@ -4,3 +4,10 @@ img-content-centered {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+.banner{
+	background-image: url("wp-content/uploads/2018/06/banner-Copy.jpg");
+}
+.banner p{
+	font-size: 29px;
+
+}

@@ -1,4 +1,7 @@
+<div class="background-about">
+
 <h1>Reporting Team Management</h1>
+
 <?php
 if(!empty($m['msg'])){?>
 <strong style="color:green"><?=$m['msg']?></strong>
@@ -7,7 +10,7 @@ if(!empty($m['msg'])){?>
 
 <?php }
 ?>
-<form method="POST" action="/wp-admin/admin.php?page=reporting2u">
+<form method="POST" class="reporting-main" action="/wp-admin/admin.php?page=reporting2u">
 <select name="manager_id">
 	<option value="">Select Manager Agent..</option>
 	<?php 
@@ -34,7 +37,7 @@ if(!empty($m['msg'])){?>
 //var_dump( get_user_by('id', 3)->data->display_name );
 #show all added reportings
 ?>
- <table class="table table-dark">
+ <table class="table-dark" cellspacing="0">
   <thead>
     <tr>
       <th>#</th>
@@ -54,10 +57,10 @@ if(!empty($m['msg'])){?>
 			<td><?=$key+1?></td>
 	      	<td><?=$m->display_name?></td>
 	      	<td><?=$r->display_name?></td>
-	      	<td><?=$row['status']?></td>
 	      	<td><?=$row['last_modified']?></td>
 	      	<td><a href="/wp-admin/admin.php?page=reporting2u&action=delete&id=<?=$row['id']?>">Delete</a>
 		</tr>
     <?php }?>
   </tbody>
 </table> 
+</div>

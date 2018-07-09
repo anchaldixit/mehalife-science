@@ -1,6 +1,9 @@
 <?php 
+get_header();
 ?>
-<table class="table table-striped table-hover ">
+<div class="background-about">
+<div class="show-all-table-main">
+<table class="show-all-table" cellspacing="0">
   <thead>
     <tr>
       <th>#</th>
@@ -31,3 +34,5 @@
     }?>
   </tbody>
 </table> 
+</div>
+</div>

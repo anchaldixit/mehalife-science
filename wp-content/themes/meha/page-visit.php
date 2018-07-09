@@ -15,5 +15,4 @@ get_header();
 
 	wp_reset_query();
 ?>	
-<h1>hello</h1>
 <?php get_footer(); ?>
