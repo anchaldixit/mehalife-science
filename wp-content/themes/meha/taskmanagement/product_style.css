@@ -1,0 +1,86 @@
+.background-about {
+	background-image: url("/wp-content/uploads/2018/07/Gyno-cal2-.png");
+    width: 100%;
+      background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 50% 38%;
+    background-color: oldlace;
+}
+@media all and (max-width: 420px) {
+   .show-all-table-main{
+	overflow: scroll;
+	width: 100%;
+}
+}
+.show-all-table{
+	margin-top: 25px;
+	width: 1150px;
+    margin: 0 auto;
+    border:1px solid black;
+    border-collapse: collapse;
+}
+.show-all-table tr{
+	border:1px solid black;
+	font-size: 19px;
+	color: red;
+}
+.show-all-table tr:nth-child(even) td{
+	background-color: #9dc4fe;
+}
+.show-all-table tr th{
+	border:1px solid black;
+	padding: 10px;
+	background-color: #2179fd;
+    font-size: 23px;
+    font-weight: 600;
+}
+.show-all-table tr.info  td{
+	text-align: center;
+	padding-left: 10px;
+	//border:1px solid black;
+	color: black;
+	padding: 10px;
+    font-family: 'Open Sans', sans-serif;
+
+
+}
+
+
+/*reporting page */
+@media all and (max-width: 2280px) {
+   .update-nag{
+	display: none;
+		}
+}
+@media all and (max-width: 420px) {
+   .update-nag{
+	display: none;
+}
+}
+.background-about h1{
+	    font-family: 'Open Sans', sans-serif;
+margin-left: 100px;
+}
+.reporting-main {
+	margin-bottom: 25px;
+	margin-left: 100px;
+}
+.table-dark th{
+	    padding: 10px;
+    text-align: center;
+    border: 1px solid;
+    background-color: #2179fd;
+}
+.table-dark{
+	width: 1000px;
+	margin:0 auto;
+	font-size: 20px;
+}
+.table-dark .info td{
+	text-align: center;
+	padding: 10px;
+    border: 1px solid;
+}
+.table-dark tr:nth-child(even) td{
+	background-color: #9dc4fe;
+}
