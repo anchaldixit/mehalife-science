@@ -37,7 +37,7 @@ get_header();
 				<span>CEO</span>
 			</div>
 			<div class="about-member-name">
-				<p>Mr.Jyoti</p>
+				<p>Mrs.Jyoti</p>
 			</div>
 		</div>
 	</div>
@@ -57,7 +57,7 @@ get_header();
 				<span>H.R</span> 
 			</div>
 			<div class="about-member-name">
-				<p>Mr. Sangeeta</p>
+				<p>Mrs. Sangeeta Meha</p>
 			</div>
 		</div>
 	</div>

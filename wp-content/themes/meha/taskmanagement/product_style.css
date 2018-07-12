@@ -6,6 +6,24 @@
     background-position: 50% 38%;
     background-color: oldlace;
 }
+@media all and (max-width: 1250px) {
+   .show-all-table-main{
+
+	width: 100%;
+}
+}
+@media all and (max-width: 960px) {
+   .show-all-table-main{
+	overflow: scroll;
+	width: 100%;
+}
+}
+@media all and (max-width: 760px) {
+   .show-all-table-main{
+	overflow: scroll;
+	width: 100%;
+}
+}
 @media all and (max-width: 420px) {
    .show-all-table-main{
 	overflow: scroll;

@@ -3,9 +3,7 @@
     <head>
       <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400|Oswald:400,700" rel="stylesheet">
       <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
-       <link rel="stylesheet" href="wp-content/themes/meha/assets/customizer-resetstyle.css">
 
-      <link rel="stylesheet" href="wp-content/themes/meha/assets/customizer-style.css">
         <title>
             <?php wp_title('|',true,'right') ?>
         </title>
@@ -19,17 +17,25 @@
         <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
         <script>
   jQuery(document).ready(function(){
+
       jQuery('.slider').bxSlider();
+      //mobile menu icon
       jQuery('#menu-icon').click(function(){
         jQuery(this).toggleClass('change');
         jQuery('#dropdown_menu').slideToggle();
       });
-
+      //reporting page add new button
       jQuery('#add-new').click(function(){
         jQuery('.task-section').slideToggle();
       });
+      <?php if(is_user_logged_in()):?>
+        jQuery(".header").stick_in_parent({offset_top:32});
+      <?php else:?>
+        jQuery(".header").stick_in_parent();
+     <?php endif ?>
     });
   </script>
+
 
 <!--
 <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
@@ -54,14 +60,13 @@
 <div class="header">
      <div class="header-section">
           <div class="header-logo">
-                <img src="/wp-content/uploads/2018/06/Mha.png">
-              
-         </div>
+                <a href="/"><img src="/wp-content/uploads/2018/06/Mha.png"></a>
+          </div>
           <ul class="header-links">
-              <li><a href="/homepage/">Home</a></li>
-              <li><a href="/about-static-page/">About Us</a></li>
-              <li><a href="/contact-me/">Contact Us</a></li>
               <li><a href="/product/">Products</a></li>
+              <li><a href="/about/">About Us</a></li>
+              <li><a href="/contact-me/">Contact Us</a></li>
+              <li><a href="/task/">Reporting</a></li>
          </ul>
        <div class="dropdown">
             <div class="containers"  class="dropbtn" id="menu-icon">
@@ -70,10 +75,10 @@
                 <div class="bar3"></div>
             </div>
             <ul id="dropdown_menu" class="dropdown-content">
-              <li><a href="/homepage/">Home</a></li>
-              <li><a href="/about-static-page/">About Us</a></li>
-              <li><a href="/contact-me/">Contact Us</a></li>
               <li><a href="/product/">Products</a></li>
+              <li><a href="/about/">About Us</a></li>
+              <li><a href="/contact-me/">Contact Us</a></li>
+              <li><a href="/task/">Reporting</a></li>
            </ul>
        </div>
     </div>

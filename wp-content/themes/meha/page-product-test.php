@@ -9,6 +9,7 @@ get_header();
 ?>
 
 	     <div class="allproduct">
+        <div id="mcoldpluss">
           <div class="mcoldplus">
             <div class="mcoldplud-main">
              <div class="mcoldplus-section">
@@ -41,6 +42,7 @@ get_header();
                        <li>Sneezing</li>
                   </ul>
             </div>     </div> 
+</div>
 </div>
 <div class="life-up">
     <div class="life-up-main">
