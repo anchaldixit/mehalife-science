@@ -28,10 +28,11 @@
       jQuery('#add-new').click(function(){
         jQuery('.task-section').slideToggle();
       });
+
       <?php if(is_user_logged_in()):?>
-        jQuery(".header").stick_in_parent({offset_top:32});
+       // jQuery(".header").stick_in_parent({offset_top:32});
       <?php else:?>
-        jQuery(".header").stick_in_parent();
+       // jQuery(".header").stick_in_parent();
      <?php endif ?>
     });
   </script>

@@ -12,7 +12,7 @@
              </div>
         <div class="social-networks">
             <div class="social-networks-logo">
-                <a href="https://www.facebook.com/" class="facebook"><i class="fa fa-facebook"></i></a>
+                <a href="https://www.facebook.com/mehalife/" class="facebook"><i class="fa fa-facebook"></i></a>
                 <a href="https://www.google.com/" class="google"><i class="fa fa-google-plus"></i></a>
             </div>
         </div>
