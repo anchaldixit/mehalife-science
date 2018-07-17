@@ -338,14 +338,147 @@ get_header();
                          <li>G.I. Infections</li>
                          <li>Traveller's Diarrhoea</li>
                         <li>Enteric Fever</li>
+                          <li>Shigellosis</li>
                         <li>Acute & chronic Diarrhoea</li>
-                       <li>Shigellosis</li>
-                       <li>Inflammatory Bowel Syndrom</li>
+                      <li>Inflammatory Bowel Syndrom</li>
                        <li>Urinary Tract Infections</li>
                    </ul>
      </div>  
+    </div>
 </div>
+<div class="gyno-cal" id="gyno-cal-block">
+    <div class="gyno-cal-main">
+         <div class="gyno-cal-section">
+              <div class="gyno-cal-content">
+                  <div class="gyno-cal-content-area">
+                       <img src="/wp-content/uploads/2018/06/gyno-cal11.jpg" />
+                       <p>A complete Ayuverdic Uterine Tonic with Aloe Vera for Women</p>
+                       <ul>
+                           <li>Helps to support uterine function</li>
+                           <li>Helps to reduce the risk of vaginal infections</li>
+                           <li>Helps to normalize menstrual cycle</li>
+                           <li>By stimulating ovulation, it helps to boost fertility and reduce irregular periods</li>
+                           <li>Helps to reduce pain during menstrual periods</li>
+                           <li>Useful in Premenstural Syndrome & Premenstural Dysmenorrhea</li> 
+                       </ul>
+                  </div>
+              </div>
+              <div class="gyno-cal-img">
+                   <div class="gyno-cal-img-section">
+                        <p>A Pewerfull herbal uterine<br> tonic for women Health</p>
+                        <img src="/wp-content/uploads/2018/07/gyno-cal.jpeg">
+                   </div>
+              </div>
+              <div class="menzy-plus-indications">
+                     <h1>Indications</h1>
+                   <ul>
+                        <li>Menorrhagia</li>
+                       <li>Metrorrhagia</li>
+                      <li>Oligomenorrhea</li>
+                        <li>Leucorrhoea</li>
+                       <li>Amenorrhea</li>
+                       <li>Menopausal syndrome</li>
+                       <li>Arrest excessive bleeding</li>
+                   </ul>
+              </div>  
+         </div>
+    </div>
 </div>
+<div class="pentazole-dsr" id="pentazole-dsr-block">
+     <div class="pentazole-dsr-main">
+          <div class="pentazole-dsr-section">
+                <div class="pentazole-dsr-imgs">
+                      <img src="/wp-content/uploads/2018/07/pentazole-dsr-img.jpg">
+                </div>
+                <div class="pentazole-dsr-content">
+                      <div class="pentazole-dsr-content-area">
+                          <img src="/wp-content/uploads/2018/07/pentazole1-dsr.jpg">
+                          <h2>Pantoprazole</h2>
+                          <ul>
+                              <li>Effective & Faster relief with Pantoprazole than Omeprazole & Lansoprazole in patients with severe heart burn/mild GERD</li>
+                              <ii>More stable in neutral to moderate acidic</ii>
+                              <li>No accumulation in body even after repeated adminstraion</li>
+                              <li>Potentiates antibacterial activity of anti microbial agents H.Pylori</li>
+                          </ul>
+                          <h3>Domperidone</h3>
+                          <ul>
+                            <li>Increases rate of gastric empying</li>
+                            <li>Relieves emesis by antagonisem of dopamine receptors in CTZ</li>
+                          </ul>
+                     </div>
+                  </div>
+              <div class="menzy-plus-indications">
+                     <h1>Indications</h1>
+                   <ul>
+                        <li>Gastro-esophageal Reflux Disease</li>
+                        <li>NSAID's Induced Ulcers</li>
+                         <li>Gastric Ucers</li>
+                        <li>Non-Ulcer Dyspepsia</li>
+                        <li>Duodenal Uicer</li>
+                       </ul>
+              </div>  
+        </div>
+    </div>
+</div>
+<div class="mehtus-plus" id="mehtus-plus-block">
+    <div class="mehtus-plus-main">
+         <div class="mehtus-plus-section">
+              <div class="mehtus-plus-content">
+                    <img src="/wp-content/uploads/2018/06/WhatsApp-Image-2018-03-09-at-14.22.21-Copy.jpeg" >
+                    <div class="mehtus-plus-content-area">
+                          <ul>
+                            <li>Immuno-modulatory, antibacterial, anti-oxidant, anti-inflammatory action Anti-tussive action with anxiolytic effect</li>
+                            <li>Bronchodilation is as good as theophylline & Anti-tussive action is similar to codeine</li>
+                            <li>Free From side effect of modern cough syrup & Provides instant relief</li>
+                            <li>Highly effective herbal cough syrup formula for dry cough & Congestion</li>
+                            <li>Treats all types of cough Naturally</li>
+                            <li>Relief from productive cough</li>
+                            <li>Clears the Respiratory Tract</li>
+                            <li>Safe and Effective</li>
+                          </ul>
+                    </div>
+              </div>
+              <div class="mehtus-plus-img">
+                  <img src="/wp-content/uploads/2018/07/mehtus-plus-2.jpeg">
+              </div>
+              <div class="menzy-plus-indications">
+                     <h1>Indications</h1>
+                   <ul>
+                        <li>Productive or Dry Cough</li>
+                        <li>Bronchail Asthma</li>
+                        <li>Respiratory infections</li>
+                        <li>C.O.P.D</li>
+                        <li>Cough Associated with Bronchitis</li>
+                   </ul>
+              </div>  
+  
+         </div>
+    </div>
+</div>
+<div class="broncodyl-cs">
+    <div class="broncodyl-cs-main">
+         <div class="broncodyl-cs-section">
+              <div class="broncodyl-cs-img">
+                  <img src="/wp-content/uploads/2018/07/broncodyl-cs.jpg">
+              </div>
+              <div class="broncodyl-cs-content">
+                  <img src="/wp-content/uploads/2018/06/broncodyl-cs1.jpg">
+                  <div class="broncodyl-cs-area">
+                        
+                   </div>
+              </div>
+         </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
 </div>
 
 
