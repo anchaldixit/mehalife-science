@@ -459,18 +459,112 @@ get_header();
     <div class="broncodyl-cs-main">
          <div class="broncodyl-cs-section">
               <div class="broncodyl-cs-img">
+                <h2>When irritating cough</h2>
+                <h3>Creates discomfort</h3>
                   <img src="/wp-content/uploads/2018/07/broncodyl-cs.jpg">
+                <h4>Ideal choice in irritating & dry cough</h4>
               </div>
               <div class="broncodyl-cs-content">
                   <img src="/wp-content/uploads/2018/06/broncodyl-cs1.jpg">
                   <div class="broncodyl-cs-area">
-                        
-                   </div>
+                        <ul>
+                          <h2>Dextromethorphan</h2>
+                          <li>Suppress cough, caused by minor throat and bronchial irritation</li>
+                          <li>Active therapy for common cold, allergies, hay fever, sinusitis and other repiratory illnesses</li>
+                          <li>Improves quality of sleep by lowering noctumal cough</li>
+                          <h3>Phenylephrine</h3>
+                          <li>Effective in allergic conditions like hay fever, sinus irritation & common cold</li>
+                          <li>Active Nasal decongestant</li>
+                          <h2>Chlorpheniramine Maleate</h2>
+                          <li>Effectively reduces symptoms of allergies, common cold and hay fever</li>
+                          <li>Effective in condition like rhinitis and urticaria</li>
+                        </ul>      
+                  </div>
               </div>
+              <div class="menzy-plus-indications">
+                     <h1>Indications</h1>
+                   <ul>
+                        <li>Ideal choice in irritating & dry cough</li>
+                        <li>Nasal congestion</li>
+                        <li>Vasomotor rhinitis</li>
+                        <li>Seasonal & Perennial allergy</li>
+                   </ul>
+              </div>  
          </div>
     </div>
 </div>
 
+
+
+
+<div class="macrotic">
+    <div class="macrotic-main">
+         <div class="macrotic-section">
+              <div class="macrotic-content">
+                   <img src="/wp-content/uploads/2018/06/macrotic.jpg">
+                   <div class="macrotic-content-area">
+                        <ul>
+                             <h2>Probiotics</h2>
+                             <li>Maintains normal intestinal flora under conditions of digestive disorders & following antibiotic therapy</li>
+                             <li>Significantly boosts the immune system by enhancing antibody production & phagocytic activity of WBCs</li>
+                             <li>Helpful in improving nutritional status & alleviates clinical symptoms of lactose intolerance.probiotic strains are effective for genitourinary infections</li>
+                             <h3>Prebiotics</h3>
+                             <li>Stimulates the growth of probiotic strains</li>
+                             <li>Significantly reduces the incidence of colon tumors</li>
+                        </ul>
+                   </div>
+              </div>
+              <div class="macrotic-img">
+                    <div class="macrotic-img-area-color">
+                          <h2>Prevent Oxidative Radicals & Provides Bioties</h2>
+                     </div>
+                    <img src="/wp-content/uploads/2018/07/mactotic.-.jpg">
+              </div>
+         </div>
+         <div class="menzy-plus-indications">
+                     <h1>Indications</h1>
+                   <ul>
+                        <li>H. Pylori Gastritis</li>
+                        <li>Lactose intolerance</li>
+                        <li>Genitourinary Infections</li>
+                        <li>Dysentery</li>
+                        <li>G.I. Infections</li>
+                        <li>Inflammatory Bowel disease</li>
+                        <li>Irritable bowel syndrome</li>
+                        <li>Diarrhoea</li>
+                   </ul>
+              </div>  
+    </div>
+</div>
+<div class="mehamol-sp">
+     <div class="mehamol-sp-main">
+          <div class="mehamol-sp-section">
+               <div class="mehamol-sp-img">
+                    <div class="mehamol-sp-img-area">
+                      <p>Faster control of<samp> Inflammation</samp> with <samp> Anti-edema</samp> activity..</p>
+                    </div>
+                    <img src="/wp-content/uploads/2018/07/mehamol-sp.jpeg">
+               </div>
+               <div class="mehamol-sp-content">
+                    <img src="/wp-content/uploads/2018/06/mehamol-spa.jpg">
+                    <div class="mehamol-sp-content-area">
+                          <h2>Aceclofenac</h2>
+                          <ul>
+                            <li>Therapy of choice in painful diseases</li>
+                            <li>Better Gl tolerability than Diclofenac.</li>
+                            <li>Shows stimulatory effects on cartilage matrix synthesis.</li>
+                            <h3>Paracetamol</h3>
+                            <li>Time Tested Anti-Pyretic Analgesic.</li>
+                            <h4>Serratiopeptidase</h4>
+                            <li>Improve micro circulation</li>
+                            <li>Clears exudates & cell debris.</li>
+                            <li>Enhances penetration of antibiotics.</li>
+                          </ul>
+                    </div>
+               </div>
+          </div>
+     </div>
+</div>
 
 
 
