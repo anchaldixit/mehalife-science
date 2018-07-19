@@ -387,10 +387,7 @@ get_header();
 <div class="pentazole-dsr" id="pentazole-dsr-block">
      <div class="pentazole-dsr-main">
           <div class="pentazole-dsr-section">
-                <div class="pentazole-dsr-imgs">
-                      <img src="/wp-content/uploads/2018/07/pentazole-dsr-img.jpg">
-                </div>
-                <div class="pentazole-dsr-content">
+              <div class="pentazole-dsr-content">
                       <div class="pentazole-dsr-content-area">
                           <img src="/wp-content/uploads/2018/07/pentazole1-dsr.jpg">
                           <h2>Pantoprazole</h2>
@@ -407,6 +404,10 @@ get_header();
                           </ul>
                      </div>
                   </div>
+                <div class="pentazole-dsr-imgs">
+                      <img src="/wp-content/uploads/2018/07/pentazole-dsr-img.jpg">
+                </div>
+              
               <div class="menzy-plus-indications">
                      <h1>Indications</h1>
                    <ul>
@@ -455,16 +456,10 @@ get_header();
          </div>
     </div>
 </div>
-<div class="broncodyl-cs">
+<div class="broncodyl-cs" id="broncodyl-cs-block">
     <div class="broncodyl-cs-main">
          <div class="broncodyl-cs-section">
-              <div class="broncodyl-cs-img">
-                <h2>When irritating cough</h2>
-                <h3>Creates discomfort</h3>
-                  <img src="/wp-content/uploads/2018/07/broncodyl-cs.jpg">
-                <h4>Ideal choice in irritating & dry cough</h4>
-              </div>
-              <div class="broncodyl-cs-content">
+             <div class="broncodyl-cs-content">
                   <img src="/wp-content/uploads/2018/06/broncodyl-cs1.jpg">
                   <div class="broncodyl-cs-area">
                         <ul>
@@ -481,6 +476,13 @@ get_header();
                         </ul>      
                   </div>
               </div>
+              <div class="broncodyl-cs-img">
+                <h2>When irritating cough</h2>
+                <h3>Creates discomfort</h3>
+                  <img src="/wp-content/uploads/2018/07/broncodyl-cs.jpg">
+                <h4>Ideal choice in irritating & dry cough</h4>
+              </div>
+              
               <div class="menzy-plus-indications">
                      <h1>Indications</h1>
                    <ul>
@@ -497,7 +499,7 @@ get_header();
 
 
 
-<div class="macrotic">
+<div class="macrotic" id="macrotic-block">
     <div class="macrotic-main">
          <div class="macrotic-section">
               <div class="macrotic-content">
@@ -536,16 +538,10 @@ get_header();
               </div>  
     </div>
 </div>
-<div class="mehamol-sp">
+<div class="mehamol-sp" id="mehamol-sp-block">
      <div class="mehamol-sp-main">
-          <div class="mehamol-sp-section">
-               <div class="mehamol-sp-img">
-                    <div class="mehamol-sp-img-area">
-                      <p>Faster control of<samp> Inflammation</samp> with <samp> Anti-edema</samp> activity..</p>
-                    </div>
-                    <img src="/wp-content/uploads/2018/07/mehamol-sp.jpeg">
-               </div>
-               <div class="mehamol-sp-content">
+      <div class="mehamol-sp-section">
+          <div class="mehamol-sp-content">
                     <img src="/wp-content/uploads/2018/06/mehamol-spa.jpg">
                     <div class="mehamol-sp-content-area">
                           <h2>Aceclofenac</h2>
@@ -553,23 +549,44 @@ get_header();
                             <li>Therapy of choice in painful diseases</li>
                             <li>Better Gl tolerability than Diclofenac.</li>
                             <li>Shows stimulatory effects on cartilage matrix synthesis.</li>
+                          </ul>
                             <h3>Paracetamol</h3>
+                          <ul>
                             <li>Time Tested Anti-Pyretic Analgesic.</li>
+                          </ul>
                             <h4>Serratiopeptidase</h4>
+                            <ul>
                             <li>Improve micro circulation</li>
                             <li>Clears exudates & cell debris.</li>
                             <li>Enhances penetration of antibiotics.</li>
                           </ul>
                     </div>
                </div>
+          
+               <div class="mehamol-sp-img">
+                    <div class="mehamol-sp-img-area">
+                      <p>Faster control of<samp> Inflammation</samp> with <samp> Anti-edema</samp> activity..</p>
+                    </div>
+                    <img src="/wp-content/uploads/2018/07/mehamol-sp.jpeg">
+               </div>
+               
           </div>
+          <div class="menzy-plus-indications">
+                     <h1>Indications</h1>
+                   <ul>
+                        <li>Fever with body ache</li>
+                        <li>Pharyngitis</li>
+                        <li>Tonsillitis</li>
+                        <li>Dental pain</li>
+                        <li>Low back pain</li>
+                        <li>Ankylosing spondylitis</li>
+                        <li>Fractures</li>
+                        <li>Post-operative pain</li>
+
+                   </ul>
+              </div>  
      </div>
 </div>
-
-
-
-
-
 
 
 

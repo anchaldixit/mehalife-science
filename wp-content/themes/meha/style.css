@@ -3608,10 +3608,21 @@ input[type="submit"].wpcf7-form-control {
     padding-top: 50px;
     background-color:#D9B279;
 }
+@media all and (max-width: 420px) {
+    .gyno-cal {
+        
+    }
+}
 .gyno-cal-main{
     width: 87%;
     margin:0 auto;
     max-width: 100%;
+}
+@media all and (max-width: 420px) {
+    .gyno-cal-main {
+    width: 95%;
+    max-width: 100%;
+    }
 }
 .gyno-cal-section{
     overflow: hidden;
@@ -3621,12 +3632,34 @@ input[type="submit"].wpcf7-form-control {
     max-width: 100%;
     float: left;    
 }
+@media all and (max-width: 680px) {
+    .gyno-cal-content{
+        width: 100%;
+    }
+}
+@media all and (max-width: 420px) {
+    .gyno-cal-content{
+        width: 100%;
+    }
+}
 .gyno-cal-content-area{
 
 }
+@media all and (max-width: 760px) {
+    .gyno-cal-content-area{
+        width: 100%;
+    }
+}
 .gyno-cal-content-area img{
     max-width: 100%;
+    box-shadow: 2px 3px 15px 1px;
 
+}
+@media all and (max-width: 680px) {
+    .gyno-cal-content-area img{
+        
+        margin: 0 auto;
+    }
 }
 .gyno-cal-content-area p{
     font-family: 'Oswald', sans-serif;
@@ -3634,9 +3667,29 @@ input[type="submit"].wpcf7-form-control {
     text-align: center;
     margin-bottom: 15px;
 }
+@media all and (max-width: 760px) {
+    .gyno-cal-content-area p{
+        margin-top: 15px;
+    }
+}
+@media all and (max-width: 420px) {
+    .gyno-cal-content-area p{
+        margin-top: 15px;
+    }
+}
 .gyno-cal-content-area ul{
-    width: 92%;
+    width: 90%;
     margin: 0 auto;
+}
+@media all and (max-width: 760px) {
+    .gyno-cal-content-area ul{
+        width: 89%;
+    }
+}
+@media all and (max-width: 420px) {
+    .gyno-cal-content-area ul{
+        width: 87%;
+    }
 }
 .gyno-cal-content-area li{
      font-family: 'Open Sans',
@@ -3652,9 +3705,23 @@ input[type="submit"].wpcf7-form-control {
     max-width: 100%;
     float: left;
 }
+@media all and (max-width: 420px) {
+    .gyno-cal-img{
+        width: 100%;
+        
+    }
+}
+
 .gyno-cal-img-section{
 
 }
+@media all and (max-width: 680px) {
+    .gyno-cal-img{
+        width: 100%;
+        
+    }
+}
+
 .gyno-cal-img-section p{
     font-family: 'Oswald', sans-serif;
     font-size: 25px;
@@ -3662,8 +3729,10 @@ input[type="submit"].wpcf7-form-control {
     margin-bottom: 21px;
     margin-top: 10px;
 }
+
 .gyno-cal-img-section img{
     max-width: 100%;
+    box-shadow: 2px 3px 15px 1px;
 }
 .pentazole-dsr{
     padding-top: 50px;
@@ -3673,6 +3742,11 @@ input[type="submit"].wpcf7-form-control {
     width: 87%;
     margin: 0 auto;
 }
+@media all and (max-width: 420px) {
+    .pentazole-dsr-main{
+        width: 95%;
+    }
+}
 .pentazole-dsr-section{
     overflow: hidden;
 }
@@ -3680,6 +3754,18 @@ input[type="submit"].wpcf7-form-control {
     width: 50%;
     max-width: 100%;
     float: left;
+}
+@media all and (max-width: 680px) {
+    .pentazole-dsr-imgs{
+        width: 100%;
+        margin-top: 20px;
+    }
+}
+@media all and (max-width: 420px) {
+    .pentazole-dsr-imgs{
+        width: 100%;
+        margin-top: 20px;
+    }
 }
 .pentazole-dsr-imgs p{
 
@@ -3689,15 +3775,27 @@ input[type="submit"].wpcf7-form-control {
 }
 .pentazole-dsr-imgs img{
     max-width: 100%;
+    box-shadow: 2px 3px 15px 1px;
 }
 .pentazole-dsr-content{
     width: 50%;
     max-width: 100%;
     float: left;
 }
+@media all and (max-width: 680px) {
+    .pentazole-dsr-content{
+       width: 100%;
+    }
+}
+@media all and (max-width: 420px) {
+    .pentazole-dsr-content{
+        width: 100%;
+    }
+}
 .pentazole-dsr-content-area{
 
 }
+
 .pentazole-dsr-content-area h2{
     margin-left: 21px;
     font-size: 22px;
@@ -3705,10 +3803,25 @@ input[type="submit"].wpcf7-form-control {
     margin-bottom: 15px;
      font-family: 'Oswald', sans-serif;
 }
+@media all and (max-width: 420px) {
+    .pentazole-dsr-content-area h2{
+        margin-top: 15px;
+    }
+}
 .pentazole-dsr-content-area ul{
     list-style: circle;
     margin: 0 auto;
     width: 91%;
+}
+@media all and (max-width: 760px) {
+    .pentazole-dsr-content-area ul{
+        width: 87%;
+    }
+}
+@media all and (max-width: 420px) {
+    .pentazole-dsr-content-area ul{
+        width: 89%;
+    }
 }
 .pentazole-dsr-content-area li{
      font-family: 'Open Sans',
@@ -3725,9 +3838,16 @@ input[type="submit"].wpcf7-form-control {
     color: #0182BF;
     margin-bottom: 15px;
      font-family: 'Oswald', sans-serif;
+     margin-top: 10px;
 }
 .pentazole-dsr-content-area img{
     max-width: 100%;
+    box-shadow: 2px 3px 15px 1px;
+}
+@media all and (max-width: 760px) {
+    .pentazole-dsr-content-area img{
+        margin-bottom: 15px;
+    }
 }
 .mehtus-plus{
     background-color: #6EB661;
@@ -3738,6 +3858,11 @@ input[type="submit"].wpcf7-form-control {
     max-width: 100%;
     margin: 0 auto;
 }
+@media all and (max-width: 420px) {
+    .mehtus-plus-main{
+        width: 95%;
+    }
+}
 .mehtus-plus-section{
     overflow: hidden;
 }
@@ -3746,15 +3871,40 @@ input[type="submit"].wpcf7-form-control {
     max-width: 100%;
     float: left;
 }
+@media all and (max-width: 680px) {
+    .mehtus-plus-content{
+        width: 100%;
+    }
+}
+@media all and (max-width: 420px) {
+    .mehtus-plus-content{
+        width: 100%;
+    }
+}
 .mehtus-plus-content img{
     max-width: 100%;
+    box-shadow: 2px 3px 15px 1px;
 }
 .mehtus-plus-content-area{
     width: 91%;
     margin:0 auto;
 }
+@media all and (max-width: 420px) {
+   .mehtus-plus-content-area{
+        width: 89%;
+        margin: 0 auto;
+        margin-top: 15px;
+    }
+}
 .mehtus-plus-content-area ul{
 
+}
+@media all and (max-width: 760px) {
+   .mehtus-plus-content-area ul{
+        width: 96%;
+       margin:0 auto;;
+        margin-top: 15px;
+    }
 }
 .mehtus-plus-content-area li{
     font-family: 'Open Sans',
@@ -3770,8 +3920,23 @@ input[type="submit"].wpcf7-form-control {
     max-width: 100%;
     float: left;
 }
+@media all and (max-width: 680px) {
+   .mehtus-plus-img{
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 15px;
+    }
+}
+@media all and (max-width: 420px) {
+   .mehtus-plus-img{
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 15px;
+    }
+}
 .mehtus-plus-img img{
     max-width: 100%;
+    box-shadow: 2px 3px 15px 1px;
 }
 .broncodyl-cs{
     padding-top: 50px;
@@ -3782,6 +3947,13 @@ input[type="submit"].wpcf7-form-control {
     max-width: 100%;
     margin:0 auto;
 }
+@media all and (max-width: 420px) {
+   .broncodyl-cs-main{
+        width: 95%;
+        margin: 0 auto;
+
+    }
+}
 .broncodyl-cs-section{
     overflow: hidden;
 }
@@ -3789,6 +3961,22 @@ input[type="submit"].wpcf7-form-control {
     width: 50%;
     max-width: 100%;
     float: left;
+}
+@media all and (max-width: 680px) {
+   .broncodyl-cs-img{
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 10px;
+
+    }
+}
+@media all and (max-width: 420px) {
+   .broncodyl-cs-img{
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 10px;
+
+    }
 }
 .broncodyl-cs-img h2{
     border: 0px solid black;
@@ -3830,14 +4018,32 @@ input[type="submit"].wpcf7-form-control {
 .broncodyl-cs-img img{
     max-width: 100%;
     margin-top: 18px;
+    box-shadow: 2px 3px 15px 1px;
 }
 .broncodyl-cs-content{
     float: left;
     width: 50%;
     max-width: 100%;
 }
+@media all and (max-width: 680px) {
+   .broncodyl-cs-content{
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 10px;
+
+    }
+}
+@media all and (max-width: 420px) {
+   .broncodyl-cs-content{
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 10px;
+
+    }
+}
 .broncodyl-cs-content img{
     max-width: 100%;
+    box-shadow: 2px 3px 15px 1px;
 }
 .broncodyl-cs-area{
     width: 90%;
@@ -3845,6 +4051,20 @@ input[type="submit"].wpcf7-form-control {
 }
 .broncodyl-cs-area ul{
 
+}
+@media all and (max-width: 760px) {
+   .broncodyl-cs-area ul{
+        width: 97%;
+        margin: 0 auto;
+
+    }
+}
+@media all and (max-width: 420px) {
+   .broncodyl-cs-area ul{
+        width: 98%;
+        margin: 0 auto;
+
+    }
 }
 .broncodyl-cs-area li{
     font-family: 'Open Sans',
@@ -3879,6 +4099,13 @@ input[type="submit"].wpcf7-form-control {
     margin: 0 auto;
     max-width: 100%;
 }
+@media all and (max-width: 420px) {
+   .macrotic-main{
+        width: 95%;
+        margin: 0 auto;
+
+    }
+}
 .macrotic-section{
     overflow: hidden;
 }
@@ -3888,13 +4115,42 @@ input[type="submit"].wpcf7-form-control {
     overflow: hidden;
     float: left;
 }
+@media all and (max-width: 680px) {
+   .macrotic-content{
+        width: 100%;
+        margin: 0 auto;
+
+    }
+}
+@media all and (max-width: 420px) {
+   .macrotic-content{
+        width: 100%;
+        margin: 0 auto;
+
+    }
+}
 .macrotic-content img{
     max-width: 100%;
+    box-shadow: 2px 3px 15px 1px;
 }
 .macrotic-content-area ul{
     width: 91%;
     margin: 0 auto;
     list-style: circle;
+}
+@media all and (max-width: 760px) {
+   .macrotic-content-area ul{
+        width: 85%;
+        margin: 0 auto;
+
+    }
+}
+@media all and (max-width: 420px) {
+   .macrotic-content-area ul{
+        width: 89%;
+        margin: 0 auto;
+
+    }
 }
 .macrotic-content-area h2{
     font-size: 21px;
@@ -3935,6 +4191,22 @@ input[type="submit"].wpcf7-form-control {
     width: 50%;
     float: left;
 }
+@media all and (max-width: 680px) {
+   .macrotic-img{
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 10px;
+
+    }
+}
+@media all and (max-width: 420px) {
+   .macrotic-img{
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 10px;
+
+    }
+}
 .macrotic-img-area-color{
     background-color: #C77A36;
 }
@@ -3951,15 +4223,23 @@ input[type="submit"].wpcf7-form-control {
 }
 .macrotic-img img{
     max-width: 100%;
+    box-shadow: 2px 3px 15px 1px;
 }
 .mehamol-sp{
     padding-top: 50px;
-    background-color: 
+   background-color: #373B85;
 }
 .mehamol-sp-main{
     width: 87%;
     max-width: 100%;
     margin: 0 auto;
+}
+@media all and (max-width: 420px) {
+   .mehamol-sp-main{
+        width: 95%;
+        margin: 0 auto;
+
+    }
 }
 .mehamol-sp-section{
     overflow: hidden;
@@ -3969,12 +4249,33 @@ input[type="submit"].wpcf7-form-control {
     max-width: 100%;
     float: left;
 }
+@media all and (max-width: 680px) {
+   .mehamol-sp-img{
+        width: 100%;
+        margin: 0 auto;
+        float: none;
+    }
+}
+@media all and (max-width: 420px) {
+   .mehamol-sp-img{
+        width: 100%;
+        margin: 0 auto;
+        float: none;
+    }
+}
 .mehamol-sp-img-area{
     width: 74%;
     max-width: 100%;
     margin: 0 auto;
     text-align: center;
     margin-bottom: 10px;
+}
+@media all and (max-width: 420px) {
+   .mehamol-sp-img-area{
+        width: 100%;
+        margin: 0 auto;
+       
+    }
 }
 .mehamol-sp-img-area p{
     font-size: 21px;
@@ -3989,17 +4290,46 @@ input[type="submit"].wpcf7-form-control {
 }
 .mehamol-sp-img img{
     max-width: 100%;
+    box-shadow: 2px 3px 15px 1px;
+}
+@media all and (max-width: 420px) {
+   .mehamol-sp-img img{
+        margin-top: 20px;
+       
+    }
 }
 .mehamol-sp-content{
     float: left;
     width: 50%;
     max-width: 100%;
 }
+@media all and (max-width: 680px) {
+   .mehamol-sp-content{
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+
+    }
+}
+@media all and (max-width: 420px) {
+   .mehamol-sp-content{
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+
+    }
+}
 .mehamol-sp-content img{
     max-width: 100%;
+    box-shadow: 2px 3px 15px 1px;
 }
 .mehamol-sp-content-area{
 
+}
+@media all and (max-width: 420px) {
+   .mehamol-sp-content-area{
+       margin-top: 20px;
+    }
 }
 .mehamol-sp-content-area h2{
     color: #498BA4;
@@ -4012,6 +4342,12 @@ input[type="submit"].wpcf7-form-control {
     margin:0 auto;
     list-style: circle;
 }
+@media all and (max-width: 760px) {
+   .mehamol-sp-content-area ul{
+       width: 85%;
+       margin: 0 auto;
+    }
+}
 .mehamol-sp-content-area li{
      font-family: 'Open Sans',
     sans-serif;
@@ -4020,6 +4356,7 @@ input[type="submit"].wpcf7-form-control {
     letter-spacing: 1px;
     line-height: 24px;
     list-style: circle;
+    color: #fff;
 }
 .mehamol-sp-content-area h3{
     color: #ECC71E;
@@ -4032,4 +4369,7 @@ input[type="submit"].wpcf7-form-control {
     font-size: 21px;
     margin-bottom: 6px;
     margin-top: 6px;
+}
+.mehamol-sp-main .menzy-plus-indications li{
+    color: #fff;
 }
