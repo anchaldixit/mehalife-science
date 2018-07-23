@@ -277,7 +277,7 @@ get_header();
                 <img src="/wp-content/uploads/2018/06/bronodyl.png" />
             </div>
                <spam>Bromhexine 2 mg, Terbutaline 1.25 mg, & Guaiphenesin 100 mg/5ml Syrup</spam>
-               <h1>Bromhexine</h1>
+               <h4>Bromhexine</h4>
                <p>Potent inhibitor of the neuronal Na+ channels Secretolytic agent provides relief in pharyngitis</p>
                <h2>Terbutaline</h2>
                <p>Fast acting bronchodilator, opens air passages in the lungs, making it easier to breathe</p>
@@ -407,7 +407,8 @@ get_header();
                 <div class="pentazole-dsr-imgs">
                       <img src="/wp-content/uploads/2018/07/pentazole-dsr-img.jpg">
                 </div>
-              
+              </div>
+              </div>
               <div class="menzy-plus-indications">
                      <h1>Indications</h1>
                    <ul>
@@ -419,8 +420,7 @@ get_header();
                        </ul>
               </div>  
         </div>
-    </div>
-</div>
+    
 <div class="mehtus-plus" id="mehtus-plus-block">
     <div class="mehtus-plus-main">
          <div class="mehtus-plus-section">
@@ -565,7 +565,7 @@ get_header();
           
                <div class="mehamol-sp-img">
                     <div class="mehamol-sp-img-area">
-                      <p>Faster control of<samp> Inflammation</samp> with <samp> Anti-edema</samp> activity..</p>
+                      <p>Faster control of<samp> Inflammation</samp> with<br> <samp> Anti-edema</samp> activity..</p>
                     </div>
                     <img src="/wp-content/uploads/2018/07/mehamol-sp.jpeg">
                </div>
