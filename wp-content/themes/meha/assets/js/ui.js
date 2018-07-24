@@ -36,8 +36,8 @@ var $collector = new Collection();
 var TaskManagement = function () {
 
     var self = this;
-    self.selector = '#task-form';
-    self.button = "#task-form #submit-button";
+    self.selector = '.task-section';
+    self.button = "#submit-button";
     self.close = ".close_visit";
     self.comment = ".add_comment_link";
     self.save = function(){
@@ -48,8 +48,8 @@ var TaskManagement = function () {
         //location.reload();
         offset = window.location.href.indexOf('?');
         length = offset >= 0 ? offset: window.location.href.length
-        window.location = window.location.href.substring(0,length)+'?msg=success'
-        window.location.reload();
+        //window.location = window.location.href.substring(0,length)+'?msg=success'
+        //window.location.reload();
     }
     self.initEvents = function(){
         jQuery(self.button).on('click',function(){
@@ -92,6 +92,7 @@ var TaskManagement = function () {
     }
 }
 jQuery(document).ready(function(){
+    console.log('hhhh');
     tm = new TaskManagement();
     tm.initEvents();
     jQuery('#add-new').click(function(){

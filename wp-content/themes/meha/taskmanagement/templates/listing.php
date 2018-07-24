@@ -85,6 +85,7 @@ get_header();
       <td>
         <button type="button" class="btn btn-primary add_comment_link" data-visit-id="<?=$row['id']?>">Comment+</button><br>
         <?php if($row['status'] == 'open') : ?>
+        <button type="button" class="btn btn-primary" name="save" id="submit-button">Submit</button>
         <button type="button" class="btn btn-primary close_visit" data-visit-id="<?=$row['id']?>">CloseIt</button>
       <?php endif;?>
     </tr>
