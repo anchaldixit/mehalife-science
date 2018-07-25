@@ -5,8 +5,8 @@
                     <ul>
                         <li><a href="/product/">Product</a></li>
                         <li><a href="/contact-me/">Contact us</a></li>
-                        <li><a href="/about-static-page/">About me</a></li>
-                        <li><a href="/#/">Reporting</a></li>
+                        <li><a href="/about/">About Us</a></li>
+                        <li><a href="/task/">Reporting</a></li>
                     </ul>
                 </div>
              </div>
@@ -17,7 +17,7 @@
             </div>
         </div>
         <div class="footer-copyright">
-            <p>MehaLifeScince© 2018 Copyright Text </p>
+            <p>MehaLifeScince© 2018</p>
         </div>
     </footer>
         <?php wp_footer();

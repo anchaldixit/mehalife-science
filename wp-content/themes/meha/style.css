@@ -557,7 +557,9 @@ body h1 {
 .slider-section .bx-wrapper .bx-pager{
     margin-bottom: 15px;
 }
-
+.bx-wrapper .bx-pager.bx-default-pager a{
+    background: rosybrown;
+}
 /* about page  */
 
 .background-about {
@@ -4473,7 +4475,6 @@ input[type="submit"].wpcf7-form-control {
 .mehamol-sp-img-area {
     width: 74%;
     max-width: 100%;
-    margin: 0 auto;
     text-align: center;
     margin-bottom: 10px;
 }
@@ -4492,7 +4493,7 @@ input[type="submit"].wpcf7-form-control {
     line-height: 30px;
 }
 
-.mehamol-sp-img-area samp {
+.mehamol-sp-img-area span{
     font-size: 21px;
     font-family: 'Oswald', sans-serif;
     color: #DA7F54;
