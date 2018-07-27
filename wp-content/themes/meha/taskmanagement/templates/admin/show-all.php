@@ -1,6 +1,4 @@
-<?php 
-get_header();
-?>
+
 <div class="background-about">
 <div class="show-all-table-main">
 <table class="show-all-table" cellspacing="0">
