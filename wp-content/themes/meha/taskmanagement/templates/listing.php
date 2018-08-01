@@ -76,8 +76,8 @@ get_header();
         <?= nl2br($row['description'])?>
       </td>
       <td><?= nl2br($row['address'])?></td>
-      <td><?=$user->display_name?></td>
-      <td><?=$manager->display_name?></td>
+      <td><?= $manager->display_name?></td>
+      <td><?= $user->display_name?></td>
       <td><strong><?=$row['status']?></strong>
           <br>
           <?=$row['last_modified']?>
